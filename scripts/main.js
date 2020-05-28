@@ -78,7 +78,7 @@ function appendChoice(id) {
     !isOp(id) ? currentNum += id : currentNum = "0";
 
     // Check for initial state
-    if (currentEntry === '0' || currentEntry === ERR || !isOp(id) && isAns) {
+    if (currentEntry === '0' || currentEntry === ERR || currentEntry === "Infinity" || !isOp(id) && isAns) {
         // Replace the currently showing screen with the new calculation
         currentEntry = id;
 
