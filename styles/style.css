@@ -1,0 +1,80 @@
+main {
+    padding-top: 100px;
+    text-align: center;
+}
+
+.button {
+    font: 30px courier;
+    height: 70px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 70px;
+}
+
+.op {
+    background-color: lightsteelblue;
+}
+
+.op:hover {
+    background-color: steelblue;
+}
+
+.num {
+    background-color: cornsilk;
+}
+
+.num:hover {
+    background-color:navajowhite;
+}
+
+.eq {
+    background-color: dodgerblue;
+}
+
+.eq:hover {
+    background-color: darkcyan;
+}
+
+.rounded {
+    border-radius: 20px;
+}
+
+#calcBorder {
+    display: inline-block;
+    width: 500px;
+    border: 2px solid slategray;
+    background-color: gainsboro;
+}
+
+#calcBorder:hover {
+    box-shadow: 10px 10px 10px 10px whitesmoke;
+}
+
+
+#calcWrap {
+    margin: 50px;
+}
+
+#screenBorder {
+    height: 100px;
+    border: 2px solid lightslategray;
+    text-align: right;
+    vertical-align: center;
+    background-color: whitesmoke;
+    line-height: 100px;
+}
+
+#screen {
+    margin: 20px;
+    padding-top: 5px;
+    font: 50px courier;
+}
+
+#buttons {
+    display: grid;
+    margin-top: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
